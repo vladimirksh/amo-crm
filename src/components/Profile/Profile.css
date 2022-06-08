@@ -23,3 +23,9 @@
   max-width: 40px;
   max-height: 40px;
 }
+
+.profile__user-foto:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 1s ease;
+}

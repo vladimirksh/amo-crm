@@ -10,4 +10,21 @@
 .header__logo {
   max-width: 40px;
   max-height: 40px;
+  cursor: pointer;
+}
+
+.header__logo:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 1s ease;
+}
+
+@media screen and (max-width: 1435px) {
+  .header {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+
 }
